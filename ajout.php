@@ -4,9 +4,9 @@
 	include("fonctionOutil/util_chap11.php");
 	include("fonctionOutil/nom_prenom_function.php");
 
-	$user="PPHP2A_02";
+	$user="SUPPRIMER";
 	$mdp="SUPPRIMER";
-	$instance = "oci:dbname=kiutoracle18.unicaen.fr:1521/info.kiutoracle18.unicaen.fr;charset=AL32UTF8";
+	$instance = "SUPPRIMER";
 	$conn = OuvrirConnexionPDO($instance,$user,$mdp); //connection a la basse de données
 
 	$req = 'SELECT * FROM tdf_nation order by nom'; //requête pour obtenir les nations pour le menu déroulant 

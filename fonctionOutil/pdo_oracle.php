@@ -6,7 +6,7 @@
 	//$db_password = "";
 	//$db = "oci:dbname=info;charset=AL32UTF8"; // fonctionne si tnsname.ora est complet (base UTF8)
 	//$db = "oci:dbname=info;charset=WE8ISO8859P15"; // fonctionne si tnsname.ora est complet
-	// $db = "oci:dbname=spartacus.iutc3.unicaen.fr:1521/info.iutc3.unicaen.fr;charset=AL32UTF8"; // fonctionne si tnsname.ora est complet (base UTF8)
+	// $db = "oci:dbname=""; // fonctionne si tnsname.ora est complet (base UTF8)
 	$db = fabriquerChaineConnex(); // plus général (fonctionne toujours)
 
 	$conn = ConnecterPDO($db,$db_username,$db_password);

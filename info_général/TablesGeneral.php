@@ -7,10 +7,10 @@
 	include_once "fonction_general.php";
 	
 	$res=false;
-	$db_username = "PPHP2A_02";
+	$db_username = "SUPPRIMER";
 	$db_password = "SUPPRIMER";
 	
-	$db = "oci:dbname=kiutoracle18.unicaen.fr:1521/info.kiutoracle18.unicaen.fr;charset=AL32UTF8"; // fonctionne si tnsname.ora est complet (base UTF8)
+	$db = "SUPPRIMER"; // fonctionne si tnsname.ora est complet (base UTF8)
 	$conn = OuvrirConnexionPDO($db,$db_username,$db_password);
 	
 	/*Si on pousse le formulaire qu'on a selectionné dans le select*/

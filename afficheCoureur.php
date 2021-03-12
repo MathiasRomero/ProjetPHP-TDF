@@ -5,9 +5,11 @@
 	include_once("fonctionOutil/nom_prenom_function.php");
 	include_once("fonctionOutil/fonction_util.php");
 	
-	$user="PPHP2A_02";
-	$mdp="SUPPRIMER";
-	$instance = "oci:dbname=kiutoracle18.unicaen.fr:1521/info.kiutoracle18.unicaen.fr;charset=AL32UTF8";
+
+	$user = "SUPPRIMER";
+	$mdp = "SUPPRIMER";
+	
+	$instance = "oci:dbname="SUPPRIMER";
 	$conn = OuvrirConnexionPDO($instance,$user,$mdp);
 	
 	$req = 'SELECT * FROM tdf_nation order by nom';

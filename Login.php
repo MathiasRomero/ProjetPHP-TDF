@@ -1,5 +1,5 @@
 <?php
-define('LOGIN','PPHP2A_02');
+define('LOGIN','SUPPRIMER');
 define('PASSWORD','SUPPRIMER');
  if(!empty($_POST)) 
   {

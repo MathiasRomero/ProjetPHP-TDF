@@ -5,13 +5,13 @@
 	include("../fonctionOutil/util_chap11.php");
 	include("../fonctionOutil/nom_prenom_function.php");
 
-	$user="PPHP2A_02";
+	$user="SUPPRIMER";
 	$mdp="SUPPRIMER";
-	$instance = "oci:dbname=kiutoracle18.unicaen.fr:1521/info.kiutoracle18.unicaen.fr;charset=AL32UTF8";
+	$instance = "SUPPRIMER";
 	$conn = OuvrirConnexionPDO($instance,$user,$mdp);
 
 	//Declaration compte oracle
-	$compte = "PPHP2A_02";
+	$compte = "SUPPRIMER";
 
 	//Recuperation date du jour
 	date_default_timezone_set('Europe/Paris');

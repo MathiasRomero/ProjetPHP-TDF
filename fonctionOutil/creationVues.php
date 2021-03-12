@@ -5,9 +5,9 @@ de la BDD. Ce fichier sera include dans le menu.php
 */
 
 
-$user="PPHP2A_02";
+$user="SUPPRIMER";
 $mdp="SUPPRIMER";
-$instance = "oci:dbname=kiutoracle18.unicaen.fr:1521/info.kiutoracle18.unicaen.fr;charset=AL32UTF8";
+$instance = "SUPPRIMER";
 $conn = OuvrirConnexionPDO($instance,$user,$mdp);
 
 /*Creation/Remplacement de la vue VILLE_ETAPE*/

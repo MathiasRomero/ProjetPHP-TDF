@@ -7,10 +7,10 @@
 	include "fonctionOutil/fonction_annee.php";
 
 	$res=false;
-	$db_username = "PPHP2A_02";
+	$db_username = "SUPPRIMER";
 	$db_password = "SUPPRIMER";
 	
-	$db = "oci:dbname=kiutoracle18.unicaen.fr:1521/info.kiutoracle18.unicaen.fr;charset=AL32UTF8";
+	$db = "oci:dbname="SUPPRIMER";
 	$conn = OuvrirConnexionPDO($db,$db_username,$db_password);
 	
 	if ( isset($_POST["BtSub"])&&isset($_POST["general"])  ){
